@@ -24,7 +24,7 @@ Year Goal: Deep dive one level with JVM/Spring on a high demmanded microservice 
    - Create a Medium Post
 
 ## Q3: Obervability as definition of done
- - Study the main challenges regards observability for high demmanded microservice envirionment on the cloud
+ - Study the main challenges regarding observability for high demmanded microservice envirionment on the cloud
 
 
 ## Q4: Knowing more details on System Design using a cloud provider
