@@ -23,7 +23,7 @@ Year Goal: Deep dive one level with JVM/Spring on a high demmanded microservice 
      - Monitoring with reports generated from consolidated tools: NewRelic, DataDog, [JVM Specific Tools](https://dzone.com/articles/top-9-free-java-process-monitoring-tools-amp-how-t), etc...
    - Create a Medium Post
 
-## Q3: Obervability first
+## Q3: Obervability as definition of done
  - Study the main challenges regards observability for high demmanded microservice envirionment on the cloud
 
 
