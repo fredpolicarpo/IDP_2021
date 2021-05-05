@@ -22,9 +22,13 @@ Year Goal: Deep dive one level with JVM/Spring on a high demmanded microservice 
      - Script for running load testing on some cloud environment
      - Monitoring with reports generated from consolidated tools: NewRelic, DataDog, [JVM Specific Tools](https://dzone.com/articles/top-9-free-java-process-monitoring-tools-amp-how-t), etc...
    - Create a Medium Post
-
+ - TODO: Other spring modules
+ - Study Kafka
+   - TODO: To detail the components to study based on which are been used on my current Job at ADDI
+   
 ## Q3: Obervability as definition of done
  - Study the main challenges regarding observability for high demmanded microservice envirionment on the cloud
+ - DataDog, CloudWatch, NewRelic, etc..
 
 
 ## Q4: Knowing more details on System Design using a cloud provider
