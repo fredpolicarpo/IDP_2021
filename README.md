@@ -5,26 +5,22 @@ Year Goal: Deep dive one level with JVM/Spring on a high demmanded microservice 
 
 ## Q2: JVM non-blocking applications
  - Study Kotlin: will be studied as demanded during the development of the following topics:
- - Study [Project Reactor](https://projectreactor.io/) 
+ - Study [Eclipse Vert.x](https://vertx.io/) 
    - Create a new repository: Use Kotlin
    - Must include: 
      - README.md with pros/cons
-     - Microbenchmarks comparing with other 2 approaches
+     - Micro benchmarks comparing with other 2 approaches
      - Script for running load testing on some cloud environment
      - Monitoring with reports generated from consolidated tools: NewRelic, DataDog, [JVM Specific Tools](https://dzone.com/articles/top-9-free-java-process-monitoring-tools-amp-how-t), etc...
    - Create a Medium Post
- - Study [Spring WebFlux](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html#webflux)
-   - Create a new repository: Use Kotlin
-   - Must include: 
-     - README.md with pros/cons
-     - Must be created using the Reactor Study as base
-     - Microbenchmarks comparing with other 2 approaches
-     - Script for running load testing on some cloud environment
-     - Monitoring with reports generated from consolidated tools: NewRelic, DataDog, [JVM Specific Tools](https://dzone.com/articles/top-9-free-java-process-monitoring-tools-amp-how-t), etc...
-   - Create a Medium Post
- - TODO: Other spring modules
- - Study Kafka
-   - TODO: To detail the components to study based on which are been used on my current Job at ADDI
+ - Study Book: Designing Event-Driven Systems O'Reilly: Concepts and Patterns for Streaming Services with Apache Kafka
+     - Create a new repository: Use Kotlin
+     - Must include:
+         - README.md with pros/cons
+         - Micro benchmarks comparing with other 2 approaches
+         - Script for running load testing on some cloud environment
+         - Monitoring with reports generated from consolidated tools: NewRelic, DataDog, [JVM Specific Tools](https://dzone.com/articles/top-9-free-java-process-monitoring-tools-amp-how-t), etc...
+     - Create a Medium Post
    
 ## Q3: Obervability as definition of done
  - Study the main challenges regarding observability for high demmanded microservice envirionment on the cloud
