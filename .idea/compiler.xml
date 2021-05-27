@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.fredpolicarpo.hello-vertx" target="11" />
+      <module name="com.fredpolicarpo.hello-vertx.main" target="11" />
+      <module name="com.fredpolicarpo.hello-vertx.test" target="11" />
+      <module name="hello-vertx" target="11" />
+      <module name="hello-vertx.main" target="11" />
+      <module name="hello-vertx.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

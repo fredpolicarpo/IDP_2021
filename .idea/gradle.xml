@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/vertx/hello-microservice-http" />
+        <option name="gradleHome" value="$USER_HOME$/.sdkman/candidates/gradle/7.0.2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/vertx/hello-microservice-http" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/vertx/hello-vertx-java" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/vertx/hello-vertx-java" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/vertx/hello-vertx-kotlin" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/vertx/hello-vertx-kotlin" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
