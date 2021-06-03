@@ -7,31 +7,12 @@
         <option name="delegatedBuild" value="true" />
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/vertx/hello-microservice-http" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/vertx/hello-consumer-microservice-message" />
         <option name="gradleHome" value="$USER_HOME$/.sdkman/candidates/gradle/7.0.2" />
+        <option name="gradleJvm" value="11" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/vertx/hello-microservice-http" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/vertx/hello-vertx-consumer" />
-        <option name="gradleHome" value="$USER_HOME$/.sdkman/candidates/gradle/7.0.2" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/vertx/hello-vertx-consumer" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/vertx/hello-vertx-consumer/app" />
-        <option name="gradleHome" value="$USER_HOME$/.sdkman/candidates/gradle/7.0.2" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/vertx/hello-vertx-consumer/app" />
+            <option value="$PROJECT_DIR$/vertx/hello-consumer-microservice-message" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -39,21 +20,12 @@
         <option name="delegatedBuild" value="true" />
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/vertx/hello-vertx-java" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/vertx/hello-microservice-message-driven" />
+        <option name="gradleHome" value="$USER_HOME$/.sdkman/candidates/gradle/7.0.2" />
+        <option name="gradleJvm" value="11" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/vertx/hello-vertx-java" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/vertx/hello-vertx-kotlin" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/vertx/hello-vertx-kotlin" />
+            <option value="$PROJECT_DIR$/vertx/hello-microservice-message-driven" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,0 +1,47 @@
+plugins {
+    id 'io.vertx.vertx-plugin' version '1.2.0'
+    id 'com.github.johnrengelman.shadow' version '7.0.0'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+def vertxVersion = "4.0.3"
+
+String mainVerticleName = "com.fredpolicarpo.hello_microservice_http.HelloMicroService"
+def launcherClassName = "io.vertx.core.Launcher"
+
+def watchForChange = "src/**/*"
+def doOnChange = "gradle shadowJar"
+
+dependencies {
+    implementation("io.vertx:vertx-web:${vertxVersion}")
+}
+
+application {
+    mainClassName = launcherClassName
+}
+
+vertx {
+    mainVerticle = mainVerticleName
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+shadowJar {
+    archiveClassifier.set("fat")
+    manifest {
+        attributes('Main-Verticle': mainVerticleName)
+    }
+    mergeServiceFiles()
+}
+
+task runJar(type: JavaExec) {
+    classpath = files(tasks.shadowJar)
+    args = ["run", mainVerticleName, "--redeploy=$watchForChange", "--launcher-class=$launcherClassName", "--on-redeploy=$doOnChange"]
+}
